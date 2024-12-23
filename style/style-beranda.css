@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  width: 100%;
+  font-family: Arial, sans-serif;
+  background-color: rgb(248, 242, 234);
+}
+
+.app-bar {
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  color: white;
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-size: 1.5em;
+  margin-left: 60px;
+}
+
+.container-image {
+  max-width: 67%;
+  overflow: hidden;
+  width: 66.8%;
+  height: auto 380px;
+  display: flex;
+  margin: 3.3% 16% 0% 16%;
+  text-align: center;
+  background-image: url("../Image/d25fa2121b31a4ad14c9ebd02127f629.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.container-image-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.6);
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+.container-image-content button {
+  background-color: #3ecf4c;
+  padding: 13px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.container-koleksi-video {
+  max-width: 67%;
+  overflow: hidden;
+  width: 66.8%;
+  height: auto 380px;
+  margin: 3.3% 16% 10% 16%;
+}
